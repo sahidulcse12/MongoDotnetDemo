@@ -8,6 +8,6 @@ namespace MongoDotnetDemo.Models
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; } = default!;
-        public string CategoryName { get; set; }= default!;
+        public string? CategoryName { get; set; }
     }
 }
